@@ -3,5 +3,5 @@
 	define('DB_USER','root');
 	define('DB_PASSWORD','');
 
-	sfs;lsdf
+	echo :sdcsdf;
 ?>
