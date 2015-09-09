@@ -29,7 +29,7 @@
 
 			//Load Library
 			require_once PATH_SYSTEM . '/core/loader/FT_Library_Loader.php';
-			$this->libray = new FT_Library_Loader();
+			$this->library = new FT_Library_Loader();
 		}
 		
 		/**
