@@ -36,7 +36,7 @@
 		 *@desc ham set config item tham so truyen vao la ten cua item va gia tri cua no
 		 */
 
-		public fucntion set_item($key,$val){
+		public function set_item($key,$val){
 			$this->config[$key] = $val;
 		}
 	}

@@ -5,7 +5,7 @@
 		public function indexAction(){
 			 echo '<pre>';
         	 print_r($this);
-        	 var_dump($this);
+        	
         	 echo '<h1>Index Action</h1>';
 			 
 		}

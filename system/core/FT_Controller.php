@@ -22,7 +22,10 @@
 		 * Ham khoi tao
 		 */
 		public function __construct(){
-
+			//Loader cho config
+			require_once PATH_SYSTEM . '/core/loader/FT_Config_Loader.php';
+			$this->config = new FT_Config_Loader();
+			$this->config->load('config');
 		}
 		
 		/**
