@@ -26,6 +26,10 @@
 			require_once PATH_SYSTEM . '/core/loader/FT_Config_Loader.php';
 			$this->config = new FT_Config_Loader();
 			$this->config->load('config');
+
+			//Load Library
+			require_once PATH_SYSTEM . '/core/loader/FT_Library_Loader.php';
+			$this->libray = new FT_Library_Loader();
 		}
 		
 		/**
