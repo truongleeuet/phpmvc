@@ -4,7 +4,13 @@
 
 	require (PATH_SYSTEM.'/config/config.php');
 
-	$segment = array(
+	//Mo file FT_Common.php file nay chua ham FT_Load chay he thong
+	include_once PATH_SYSTEM . '/core/FT_Common.php';
+
+	//Chuong trinh chinh
+	FT_Load();
+
+	/*$segment = array(
 		'controller' => '',
 		'action' => array()
 	);
@@ -16,4 +22,5 @@
 	require_once PATH_SYSTEM . '/core/FT_Controller.php';
 	$controller = new FT_Controller();
 	$controller->load($segment['controller'],$segment['action']);
+	*/
 ?>

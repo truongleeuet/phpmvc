@@ -24,11 +24,15 @@
 		public function __construct(){
 
 		}
-
+		
 		/**
 		 * Hàm chạy ứng dụng
-		 @desc tham số truyền vào gồm controller và action
+		 *@desc tham số truyền vào gồm controller và action
 		 */
+
+		 /*
+		  * 
+		  
 		 public function load($controller,$action){
 		 	$controller = ucfirst(strtolower($controller)) . '_Controller';
 
@@ -52,6 +56,7 @@
 
 		 	$controllerObject->{$action}();
 		 }
+		 */
 	}
 
 ?>
