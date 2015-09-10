@@ -24,7 +24,9 @@
 
 		//Include controller chinh de cac controller con ke thua
 		include_once PATH_SYSTEM . '/core/FT_Controller.php';
-		//Goi file controller vao
+		if(file_exists(PATH_APPLICATION . '/core/Base_Controller.php')){
+			include_once PATH_APPLICATION . '/core/Base_Controller.php';
+		}
 		require_once PATH_APPLICATION . '/controller/' . $controller . '.php';
 		//Kiem tra class controller co ton tai hay khong
 		if(!class_exists($controller)){
